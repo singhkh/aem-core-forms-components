@@ -70,7 +70,7 @@
         }
 
         _cssClass(clsName) {
-            return `cmp-${TextInput.IS}--${clsName}`
+            return `${TextInput.bemBlock}--${clsName}`
         }
 
         /**
